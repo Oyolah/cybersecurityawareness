@@ -33,19 +33,24 @@ const Footer = () => {
                     </Heading>
                     <Flex>
                         <Link
-                            to="https://www.facebook.com/oyolah.mustapha"
+                            isExternal
+                            href="https://www.facebook.com/oyolah.mustapha"
                             mr={4}
                         >
-                            <FaFacebook fontSize={30} isExternal />
+                            <FaFacebook fontSize={30} />
                         </Link>
                         <Link
-                            to="https://www.linkedin.com/in/oyolah-mustapha-kamara-898252140/"
+                            isExternal
+                            href="https://www.linkedin.com/in/oyolah-mustapha-kamara-898252140/"
                             mr={4}
                         >
-                            <FaLinkedin fontSize={30} isExternal />
+                            <FaLinkedin fontSize={30} />
                         </Link>
-                        <Link to="https://www.instagram.com/oyolah.sl/">
-                            <FaInstagram fontSize={30} isExternal />
+                        <Link
+                            isExternal
+                            href="https://www.instagram.com/oyolah.sl/"
+                        >
+                            <FaInstagram fontSize={30} />
                         </Link>
                     </Flex>
                 </Box>
